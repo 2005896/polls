@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>설문조사 결과</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/results_style.css' %}">
+</head>
+<body>
+<h1>{{question.question_text}}</h1>
+<ul>
+    {% for choice in question.choice_set.all %}
+    <li>{{choice.choice_text}} -- {{choice.votes}} vote{{choice.votes|pluralize}}</li>
+    {% endfor %}
+</ul>
+<a href="{% url 'polls:detail' question.id %}">Vote again?</a>
+<a href="http://127.0.0.1:8000/polls/"> 목록 화면으로 이동 </a>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body {
+    background: white url("images/background.jpg") no-repeat;
+    background-position: right bottom;
+	margin: 200px auto;
+	max-width: 900px;
+	border: 0.5rem outset pink;
+	border-color:#FFFFFF;
+}
+
+h1 {
+    font-family:Geneva,Arial,Helvetica,sans-serif;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align:center;
+    color: #834683;
+}
+
+input[type='radio'] {
+    position: relative;
+    width: 33rem;
+    height: 1rem;
+    margin-right: -13rem;
+}
+
+input[type='submit'] {
+    position: relative;
+    left: 35%;
+    right: 50%;
+    transform: translate( 50% );
+    padding: 10px;
+    margin: 40px;
+    font: menu;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 8px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+}
+
+a {
+    text-decoration-line: none;
+    padding-bottom: 10px;
+    margin: 3px;
+}

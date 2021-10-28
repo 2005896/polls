@@ -1,0 +1,47 @@
+body {
+    background: white url("images/background.jpg") no-repeat;
+    background-position: right bottom;
+	margin: 250px auto;
+	max-width: 500px;
+	border: 0.5rem outset pink;
+	border-color:#FFFFFF;
+}
+
+header {
+	  background-color:#FFEBF0;
+	  color:#b578b5;
+	  text-align:center;
+	  padding-top: 5px;
+}
+
+h3 {
+    font-family:Geneva,Arial,Helvetica,sans-serif;
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 20px 0px 20px 20px;
+}
+
+li a {
+    line-height: 3em;
+    text-decoration-line: none;
+    border-bottom: 8px solid #d396d3;
+}
+
+a:link {
+color: white; text-decoration: none; text-shadow: 0 0 24px;
+}
+
+a:visited {
+color: purple; text-decoration: none;
+}
+
+a:hover {
+color: white; text-decoration: none;
+}
+
+a:active {
+color: white; background-color: #FABCBC;
+}
